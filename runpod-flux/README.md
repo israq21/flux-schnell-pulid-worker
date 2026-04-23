@@ -8,7 +8,7 @@ Custom RunPod serverless worker for Flux.1-schnell with PuLID-Flux face consiste
 2. On RunPod → Serverless → New Endpoint → select "GitHub Repo" → paste your repo URL.
 3. RunPod auto-builds the image.
 4. Attach network volume `flux-models` at `/runpod-volume`.
-5. GPU: RTX 4090, Max Workers: 5, Flashboot: on, Idle timeout: 5s.
+5. GPU: RTX 4090, Max Workers: 7, Flashboot: on, Idle timeout: 5s.
 
 ## Inputs (same as runpod-workers/worker-comfyui)
 
